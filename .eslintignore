@@ -11,3 +11,5 @@ vite-env.d.ts
 
 # Ignore all HTML files:
 *.html
+
+tailwind.config.js

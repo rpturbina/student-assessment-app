@@ -23,12 +23,21 @@
     "**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "class-variance-authority": "^0.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "tailwind-merge": "^1.12.0",
+    "tailwindcss-animate": "^1.0.5",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
     "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
     "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.28",
@@ -37,6 +46,7 @@
     "@typescript-eslint/parser": "^5.58.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.14",
+    "clsx": "^1.2.1",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
