@@ -1,4 +1,4 @@
-<h3 align="center">React + Vite + Typescript Boilerplate</h3>
+<h2 align="center">Student Assessment App</h2>
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 ---
 
-<p align="center"> React Boilerplate roject built with Vite and TypeScript
+<p align="center"> React Boilerplate project built with Vite, TypeScript, Tailwind CSS and configured with Prettier, ESLint, Husky, and lint-staged.
     <br> 
 </p>
 
@@ -56,6 +56,20 @@ pnpm dev
 
 This will start the development server at http://localhost:5173.
 
+### Testing
+
+To run the test, use the following command:
+
+```bash
+pnpm test
+```
+
+If you want to use watch mode, use the following command:
+
+```bash
+pnpm test:watch
+```
+
 ### Building for Production
 
 To build the project for production, use the following command:
@@ -72,10 +86,11 @@ pnpm preview
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
-- [Chakra UI](https://chakra-ui.com/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Vitest](https://vitest.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
